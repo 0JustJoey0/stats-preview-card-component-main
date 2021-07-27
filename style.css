@@ -26,6 +26,7 @@ body{
     border-radius: 10px;
     margin-top: 70px; 
     text-align: center;
+    margin-bottom: 60px;
 }
 
 .container__imgmobile{
@@ -92,7 +93,7 @@ h1{
  }
  
 
- @media screen and (min-width: 1440px) {
+ @media screen and (min-width: 1150px) {
 
   body{
     align-items: center;
