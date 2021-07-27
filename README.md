@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/0JustJoey0/stats-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://0justjoey0.github.io/stats-preview-card-component-main)
+- Solution URL: [GitHub](https://github.com/0JustJoey0/stats-preview-card-component-main)
+- Live Site URL: [GitHub Pages](https://0justjoey0.github.io/stats-preview-card-component-main)
 
 ## My process
 
@@ -56,4 +56,4 @@ I am going to keep working on designing my css to be more translatable between d
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/0JustJoey0)
+- Frontend Mentor - [@0JustJoey0](https://www.frontendmentor.io/profile/0JustJoey0)
