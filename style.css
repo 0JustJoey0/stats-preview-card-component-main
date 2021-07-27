@@ -21,35 +21,22 @@ body{
 
 .container{ 
     background-color:hsl(244, 38%, 16%);
-    width: 330px;
-    text-align: center;
+    width: 330px; 
     font-weight: 400;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-top: 70px; 
-}
-
-
-/*img_tint{
-    background: hsl(277, 64%, 61%); 
+    text-align: center;
 }
 
 .container__imgmobile{
-    width: 100%; 
-    vertical-align: top;
-    border-radius: 5px;
-    mix-blend-mode: overlay;
-}
- */
-
- img {
     width:100%;
+    display: block;
     z-index: 1;
-    border-radius: 5px;
+    border-radius: 10px 10px 0px 0px;
   }
   
   div.wrapper {
     position: relative;
-    width: 100%;
   }
   
   /* Filter */
@@ -58,6 +45,7 @@ body{
     opacity: 70%;
     position: absolute;
     height: 100%;
+    border-radius: 10px 10px 0px 0px;
     width: 100%;
     top: 0;
     left: 0;
@@ -66,7 +54,125 @@ body{
 
 
 
+/* Title */
+span {
+    font-weight: 700; 
+    font-size: 30px; 
+}
 
 h1{
-    font-weight: 700; 
+  font-size: 30px;
+  margin: 40px 26px 22px 26px;
+  font-weight: 700; 
 }
+
+/* Paragraph */
+ p{
+   margin: 0px 36px 40px 36px;
+   color:hsla(0, 0%, 100%, 0.75); 
+   line-height:25px;
+ }
+
+
+ /* Stats */
+
+ h2{
+   font-size: 23px;
+   margin: 25px 0px 5px 0px; 
+ }
+
+ h3{
+   font-size: 13px; 
+   color: hsla(0, 0%, 100%, 0.6);
+   font-weight: 400;
+ }
+
+ .stats_container{
+   margin-bottom: 30px;
+ }
+ 
+
+ @media screen and (min-width: 1440px) {
+
+  body{
+    align-items: center;
+    min-height: 99vh; 
+  }
+
+  .wrapper{
+   width: 100%;
+  }
+
+  .container__imgdesktop{
+    display: block;
+    width: 100%;
+    height: 100%; 
+    z-index: 1;
+    border-radius: 0px 10px 10px 0px;
+
+  }
+
+  div.over {
+    
+    border-radius: 0px 10px 10px 0px;
+
+  }
+
+  .container__imgmobile
+  {
+    display: none;
+  }
+
+  h1{
+    font-size: 45px;
+    margin-left:0px;
+  }
+
+  span{
+    font-size: 45px;
+  }
+
+  p{
+    font-size: 18px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+  }
+
+  h2{
+    font-size: 27px;
+  }
+
+  h3{
+    font-size: 16px;
+  }
+
+  .container{
+    margin: 0px;
+    display:flex;
+    flex-direction: row-reverse;
+    width:1200px;
+    height: 470px;
+    text-align: left;
+  }
+
+  .text_container{
+    margin: 25px 70px 0px 90px
+  }
+
+  .stats_container{
+    display: flex;
+  }
+
+  .stats{
+    margin-right: 60px;
+  }
+
+
+
+
+
+
+
+
+   
+ }
