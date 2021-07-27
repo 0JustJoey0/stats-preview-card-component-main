@@ -1,0 +1,73 @@
+*{
+    padding:0px; 
+    margin: 0px; 
+    font-family: 'Inter', sans-serif;
+    color:hsl(0, 0%, 100%);
+    font-size:15px; 
+}
+
+.container__imgdesktop{
+    display: none;
+}
+
+/*Background*/
+body{
+   background-color: hsl(233, 47%, 7%); 
+   display: flex;
+   justify-content: center;
+}
+
+/*CARD*/
+
+.container{ 
+    background-color:hsl(244, 38%, 16%);
+    width: 330px;
+    text-align: center;
+    font-weight: 400;
+    border-radius: 5px;
+    margin-top: 70px; 
+}
+
+
+/*img_tint{
+    background: hsl(277, 64%, 61%); 
+}
+
+.container__imgmobile{
+    width: 100%; 
+    vertical-align: top;
+    border-radius: 5px;
+    mix-blend-mode: overlay;
+}
+ */
+
+ img {
+    width:100%;
+    z-index: 1;
+    border-radius: 5px;
+  }
+  
+  div.wrapper {
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Filter */
+  div.over {
+    background: hsla(277, 96%, 32%, 0.904);
+    opacity: 70%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+
+
+
+
+h1{
+    font-weight: 700; 
+}
+
